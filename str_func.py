@@ -1,6 +1,6 @@
 def make_all_letters_uppercase(string: str):
     """
-    Принимает на вход строку и возвращает ее со всеми заглавными буквами
+    Принимает на вход строку и возвращает ее со всеми заглавными буквами.
     """
     return string.upper()
 
@@ -12,3 +12,10 @@ def capitalize_first_letter(string: str):
     :return: str
     """
     return string.title()
+
+
+def make_all_letters_lowercase(string: str):
+    """
+    Принимает на вход строку и возвращает ее со всеми строчными буквами.
+    """
+    return string.lower()
